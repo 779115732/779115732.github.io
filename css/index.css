@@ -3973,10 +3973,10 @@ figure.highlight pre .javascript .function {
 }
 #loading-box .load-image {
   z-index: 1001;
-  max-width: 100%;
-  width: auto;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   object-fit: cover;
+  object-position: center;
   opacity: 1;
   -ms-filter: none;
   filter: none;
