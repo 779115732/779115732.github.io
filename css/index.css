@@ -4019,8 +4019,12 @@ figure.highlight pre .javascript .function {
   filter: alpha(opacity=0);
 }
 @media (max-width: 767px) {
-  #loading-box .load-image {
-    display: none;
+  #loading-box {
+    display: none !important;
+  }
+  .loading-bg {
+    display: none !important;
+    background: transparent !important;
   }
 }
 #pagination .pagination {
