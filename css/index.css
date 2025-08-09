@@ -4022,8 +4022,19 @@ figure.highlight pre .javascript .function {
   width: auto;
   height: auto;
   object-fit: cover;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  transition: opacity 1s;
 }
 #loading-box.loaded .load-image {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
   display: none;
 }
 #pagination .pagination {
