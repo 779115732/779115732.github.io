@@ -3986,12 +3986,6 @@ figure.highlight pre .javascript .function {
   -ms-transition: opacity 1s ease;
   transition: opacity 1s ease;
 }
-#loading-box .load-image.desktop {
-  display: block;
-}
-#loading-box .load-image.mobile {
-  display: none;
-}
 #loading-box.loaded {
   z-index: -1000;
 }
@@ -4025,11 +4019,8 @@ figure.highlight pre .javascript .function {
   filter: alpha(opacity=0);
 }
 @media (max-width: 767px) {
-  #loading-box .load-image.desktop {
+  #loading-box .load-image {
     display: none;
-  }
-  #loading-box .load-image.mobile {
-    display: block;
   }
 }
 #pagination .pagination {
